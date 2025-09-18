@@ -1,6 +1,6 @@
 {
 	"appName": "SafeCracking Timer",
-	"description": "minimal alt1 webpack/ts example test app",
+	"description": "Simple app for Safecracking",
 	"appUrl": "./index.html",
 	"configUrl": "./appconfig.json",
 	"iconUrl": "https://runescape.wiki/images/Safe_%28looted%29.png?4cbe5",
