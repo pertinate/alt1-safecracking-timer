@@ -1,15 +1,4 @@
-# Minimal Alt1/webpack/typescript example
+Add the safes that you are doing in rotation.
 
-how to use
-```sh
-#to initialize the repo and install dependencies
-npm i
-#build
-npm run build
-#alternatively to auto-rebuild when source files are changed
-npm run watch
-```
-
-You can open `./dist/index.html` in your browser and it will give some basic functionality based one pasted images.
-
-You can also open it in the Alt1 browser and click the `add app` button that appears to get some basic alt1 functionality.
+<img width="253" height="254" alt="image" src="https://github.com/user-attachments/assets/f3277145-f2e0-434f-a35c-21c12d92dda0" />
+<img width="258" height="257" alt="image" src="https://github.com/user-attachments/assets/bb9d2ef4-46e5-4bc3-977a-8eacf0efe5f3" />
