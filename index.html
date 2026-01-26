@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/nis.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/alt1-currentskin/skinstyle.css" /> -->
+	</head>
+
+	<body class="nis" style="padding: 8px;">
+		<div style="display: flex;flex-direction: column;">
+			<select class="nisdropdown" id="safe_location">
+				<option value="Misthalin">Misthalin</option>
+				<option value="Kharidian Desert">Kharidian Desert</option>
+				<option value="Asgarnia">Asgarnia</option>
+				<option value="Kandarin">Kandarin</option>
+				<option value="Wilderness">Wilderness</option>
+				<option value="Zemouregal's Fortress">Zemouregal's Fortress</option>
+			</select>
+			<button class="nisbutton" onclick="TEST.AddSafe()">Add Safe</button>
+		</div>
+		<label class="switch">
+			<input id="tooltip_toggle" type="checkbox">
+			<span>Show Tooltip</span>
+		</label>
+		<ul id="progress_list" style="list-style: none;padding-left: 0;">
+
+		</ul>
+		<!-- <div>
+			<label id="listen1_text"></label>
+			<label id="listen2_text"></label>
+			<button id="listen1" onclick="TEST.ListenForBounds(true)">First</button>
+			<button id="listen2" onclick="TEST.ListenForBounds(false)">
+				Second
+			</button>
+		</div>
+		<div id="output"></div> -->
+		<script src="./index.bundle.js"></script>
+	</body>
+
+</html>

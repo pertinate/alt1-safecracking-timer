@@ -1,0 +1,16 @@
+{
+	"appName": "SafeCracking Timer",
+	"description": "SafeCracking timer for Runescape",
+	"appUrl": "./index.html",
+	"configUrl": "./appconfig.json",
+	"iconUrl": "./icon.png",
+	"defaultWidth": 250,
+	"defaultHeight": 250,
+	"minWidth": 250,
+	"minHeight": 180,
+	"maxWidth": 1000,
+	"maxHeight": 1000,
+	"requestHandlers": [ ],
+	"activators": ["Crack Open Safe", "Examine Safe"],
+	"permissions": "pixel,gamestate,overlay"
+}
