@@ -18,5 +18,14 @@ config.entry("index", "./index.ts");
 //where to put all the stuff
 config.output(outdir);
 
+//ignore optional node dependencies that aren't needed in browser
+const webpackConfig = config.toConfig();
+webpackConfig.resolve = webpackConfig.resolve || {};
+webpackConfig.resolve.fallback = {
+	...webpackConfig.resolve.fallback,
+	sharp: false,
+	canvas: false,
+	"electron/common": false
+};
 
-export default config.toConfig();
+export default webpackConfig;
