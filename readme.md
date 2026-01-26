@@ -18,6 +18,9 @@ This README documents setup, usage, and deployment so the tool can be maintained
 alt1://addapp/https://pertinate.github.io/alt1-safecracking-timer/appconfig.json
 ```
 2. Alt1 will register the app. Ensure that you tick the boxes to grant the necessary permissions.
+
+### Plugin Hub
+1. Visit this on the [Plugin Hub](https://pluginhub.pertinate.info/plugins/5)
    
 <img width="321" height="414" alt="image" src="https://github.com/user-attachments/assets/5569423a-f1e7-404e-8cfa-834835e77bbf" />
     
