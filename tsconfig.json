@@ -1,6 +1,13 @@
 {
-	"compilerOptions": {
-		"moduleResolution": "Node"
-	},
-	"allowTsInNodeModules": true
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "baseUrl": "./"
+  },
+  "include": [
+    "src/**/*",
+    "src/types/**/*"
+  ]
 }
